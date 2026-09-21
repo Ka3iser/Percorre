@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222227;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* parte de login externo */
+
+#loginExterno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginExterno button{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+hr{
+    margin: 10px 0px 30px 0px;
+}
+
+/* parte de cadastro */
+
+#login{
+    background-color: #4eb16b;
+    box-shadow: 1px 1px 10px #3a7a4d;
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 45px;
+}
+
+#login form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+form input{
+    background-color: #222227;
+    width: 350px;
+    color: white;
+}
+
+#login input{
+    margin: 10px;
+}
+
+#login label{
+    text-indent: 20px;
+}
