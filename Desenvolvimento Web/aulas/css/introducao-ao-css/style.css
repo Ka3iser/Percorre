@@ -1,0 +1,26 @@
+/* reset basico */
+*{
+    /* espaçamento entre os itens */
+    margin: 0%; 
+    /* espaçamente interno  */
+    padding: 0%;
+}
+
+/* estilo do corpo da pagina */
+body{
+    background-color: wheat; /*muda o fundo */
+}
+
+/* # é o id (identificador) */
+#secaoJojo{
+    background-color: rgb(226, 151, 11);
+    height: 250px;
+}
+
+/* . é a class (classe) */
+.cardNome{
+    background-color: rgb(33, 138, 224);
+    color: white;
+    /* largunra */
+    width: 300px;
+}
