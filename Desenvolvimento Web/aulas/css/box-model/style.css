@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: green;
+}
+
+.caixa{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    padding-left: 120px;
+    padding-top: 30px;
+    /* border: 5px dashed #332f2f; */
+    outline: 5px dashed #332f2f;
+    border-radius: 10%;
+    margin-top: 50px;
+    margin-left: 80px;
+    display: inline-block;
+}
