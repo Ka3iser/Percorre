@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(233, 195, 146);
+}
+
+h1{
+    color: brown;  
+    background-color: rgb(236, 156, 126);
+}
+
+/* pseudo classes são utilizadas para mudar o estado do elemento */
+
+/* hover significa sobre, ele faz com que quando o mouse estiver em cima do elemento ele vai executar a mudança que escrevemos */
+h1:hover{
+    color: white;
+    background-color: rgb(209, 75, 75);
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* active, significa ativar, ou seja quando ele clicar ele vai mudar o elemento (tem q clicar e segurar)*/
+
+h2{
+    padding: 20px;  
+    margin: 20px;
+    background-color: rgb(35, 137, 221);
+    text-align: center;
+    color: white;
+}
+
+h2:active{
+    background-color: blueviolet;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+}
+
+#miguel{
+    height: 400px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.batata{
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    background-color: tomato;
+    display: inline-block;
+    margin-left: 210px;
+    text-align: center;
+    padding-top: 30px;
+}
+/* transform modifica a forma do elemento, como o scale aumenta o tamanho ou diminui oo tamanho do elemento*/
+.batata:hover{
+    color: dimgrey;
+    background-color: rgb(240, 148, 114);
+    transform: rotate(45rad);
+    transition: 1s;
+}
+
