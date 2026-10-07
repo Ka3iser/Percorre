@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 156, 120);
+}
+
+.container{
+    font-size: 50px;
+    color: white;
+    height: 100vh;
+    display: flex; /* ativa o flex box*/
+    flex-direction: row; /* mexe na direção */
+    justify-content: center; /* mexe no eixo principal */
+    /* justify content
+        center - centro
+        start - começo
+        end - final
+        between - espaçamento igual entre o itens
+        around - espaçamento ao redor dos itens
+        evenly - distribui o espaçamento igualmente
+    */
+    align-items: center;
+    /* align items = mexe no eixo transversal*/
+    gap: 50%;
+    flex-wrap: wrap; /* quebra linha automaticamente */
+}
+
+.item{
+    width: 120px;
+    height: 200px;
+    background-color: rgb(199, 79, 79);
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
